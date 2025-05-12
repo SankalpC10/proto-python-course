@@ -6,3 +6,7 @@ opentelemetry-instrumentation-fastapi
 opentelemetry-instrumentation-logging
 opentelemetry-exporter-jaeger-thrift
 opentelemetry-exporter-otlp
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation-grpc
+grpcio
+grpcio-tools

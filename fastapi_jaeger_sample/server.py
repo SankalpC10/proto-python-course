@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+
 import os
 import sys
 import logging
@@ -87,3 +89,5 @@ def serve():
 
 if __name__ == "__main__":
     serve()
+
+#python -m grpc_tools.protoc -Iproto --python_out=. --grpc_python_out=. proto/hello.proto
